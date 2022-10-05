@@ -2,7 +2,7 @@ import axios from 'axios';
 import { UserProps, UsersData } from '../interfaces/User';
 
 export const axiosInstance = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: 'https://dry-savannah-76665.herokuapp.com',
 });
 
 export async function getUsers() {

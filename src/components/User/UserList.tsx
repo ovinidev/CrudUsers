@@ -11,8 +11,8 @@ export const UserList = ({ children, ...rest }: UserListProps) => {
       {...rest}
       spacing="4"
       overflowY="scroll"
-      h="35rem"
-      pr="1rem"
+      h={{ base: 'none', xl: '35rem' }}
+      pr={{ base: 'none', xl: '1rem' }}
       css={{
         '&::-webkit-scrollbar': {
           width: '4px',

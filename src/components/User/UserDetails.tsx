@@ -20,6 +20,8 @@ export const UserDetails = ({
       mt={{ base: '2rem', xl: '0' }}
       w={{ base: '100%', xl: '50%' }}
       ml={{ base: 'none', xl: '2rem' }}
+      p="1rem"
+      mb={{ base: '4rem', xl: 'none' }}
       bg="gray.900"
       fontSize="1.2rem"
     >
