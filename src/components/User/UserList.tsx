@@ -13,6 +13,7 @@ export const UserList = ({ children, ...rest }: UserListProps) => {
       overflowY="scroll"
       h={{ base: 'none', xl: '35rem' }}
       pr={{ base: 'none', xl: '1rem' }}
+      w={{ base: '100%', xl: '50%' }}
       css={{
         '&::-webkit-scrollbar': {
           width: '4px',
